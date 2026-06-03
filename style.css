@@ -1,0 +1,29 @@
+header{
+    text-align: center;
+       background-color: #ff4d6d;
+      color: white;
+}
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+  background-color: #f8f8ff;
+}
+footer {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #333;
+      color: white;
+     text-align: center;
+    }
+       
+    
+    button:hover{
+        color: darkred;
+    }
+    @media screen and (max-width:480px) {
+        img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
